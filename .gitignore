@@ -1,0 +1,36 @@
+# System search logs
+**/search_*
+
+/scratch/*
+
+# Ignore all video files
+# *.mp4
+*.m4v
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+
+# Ignore Fortran compiled modules and executables in src
+src/*.mod
+src/*.exe
+src/*.o
+src/*isodown*
+src/*isosurf*
+src/DOS.txt
+
+# Ignore generated data files
+*.-
+*.dn
+
+
+# Unfinished
+article.md
+multi_lattice_dos_report.txt
+Images/Everyday_Materials_Multipanel/multipanel_copper_gold_silver_4x2.png
+Images/Everyday_Materials_Multipanel/multipanel_graphite_2x4.png
+Images/Everyday_Materials_Multipanel/multipanel_graphite_4x2.png
+Images/Everyday_Materials_Multipanel/multipanel_iron_tungsten_2x4.png
+Images/Everyday_Materials_Multipanel/multipanel_iron_tungsten_4x2.png
